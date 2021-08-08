@@ -1,0 +1,124 @@
+{
+    "name": "keybindings",
+    "displayName": "Zardoy Keybindings",
+    "publisher": "zardoy",
+    "version": "0.0.1",
+    "description": "My opinionated keybindings",
+    "repository": "https://github.com/zardoy/vscode-keybindings.git",
+    "keywords": [
+        "zardoy",
+        "Zardoy",
+        "zardoY",
+        "keymap",
+        "keybindings"
+    ],
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "mac": "cmd+w",
+                "win": "ctrl+w",
+                "linux": "ctrl+w",
+                "key": "ctrl+w",
+                "command": "workbench.action.closeActiveEditor"
+            },
+            {
+                "mac": "shift+cmd+[",
+                "key": "ctrl+pageup",
+                "command": "workbench.action.previousEditor"
+            },
+            {
+                "mac": "shift+cmd+]",
+                "key": "ctrl+pagedown",
+                "command": "workbench.action.nextEditor"
+            },
+            {
+                "mac": "cmd+shift+d",
+                "key": "ctrl+shift+d",
+                "command": "editor.action.copyLinesDownAction",
+                "when": "editorFocus"
+            },
+            {
+                "mac": "cmd+k cmd+shift+d",
+                "key": "ctrl+k ctrl+shift+d",
+                "command": "editor.action.duplicateSelection",
+                "when": "editorFocus"
+            },
+            {
+                "mac": "alt+cmd+s",
+                "key": "ctrl+alt+s",
+                "command": "workbench.action.files.saveAll"
+            },
+            {
+                "mac": "cmd+k cmd+b",
+                "key": "ctrl+k ctrl+b",
+                "command": "workbench.action.toggleSidebarVisibility"
+            },
+            {
+                "mac": "cmd+r",
+                "key": "ctrl+r",
+                "command": "editor.action.rename"
+            },
+            {
+                "mac": "cmd+k l",
+                "key": "ctrl+k l",
+                "command": "extension.changeCase.commands"
+            },
+            {
+                "cmd": "shift+alt+.",
+                "key": "shift+alt+.",
+                "command": "editor.action.smartSelect.expand",
+                "when": "editorTextFocus"
+            },
+            {
+                "cmd": "cmd+n",
+                "key": "ctrl+n",
+                "command": "explorer.newFile"
+            },
+            {
+                "cmd": "cmd+k cmd+s",
+                "key": "ctrl+k ctrl+s",
+                "command": "workbench.action.files.saveWithoutFormatting"
+            },
+            {
+                "mac": "shift+cmd+,",
+                "command": "editor.action.smartSelect.shrink",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "shift+cmd+,",
+                "command": "editor.action.smartSelect.shrink",
+                "when": "editorTextFocus"
+            },
+            {
+                "cmd": "cmd+k cmd+,",
+                "key": "ctrl+k ctrl+,",
+                "command": "workbench.action.openGlobalKeybindings"
+            },
+            {
+                "mac": "shift+cmd+backspace",
+                "key": "CHECK:shift+ctrl+backspace",
+                "command": "workbench.action.terminal.kill",
+                "when": "terminalFocus"
+            }
+            "git-push",
+            {}
+        ]
+    },
+    "galleryBanner": {
+        "color": "#ffcb00",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.58.2"
+    },
+    "qna": false,
+    "author": "Vitaly Turovsky <vital2580@icloud.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/vscode": "^1.58.1",
+        "@zardoy/vscode-tools": "https://github.com/zardoy/vscode-tools#build"
+    }
+}
