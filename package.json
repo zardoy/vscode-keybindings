@@ -3,7 +3,7 @@
     "displayName": "Zardoy Keybindings",
     "publisher": "zardoy",
     "version": "0.0.1",
-    "description": "My opinionated keybindings",
+    "description": "My full list of opinionated keybindings",
     "repository": "https://github.com/zardoy/vscode-keybindings.git",
     "keywords": [
         "zardoy",
@@ -48,7 +48,7 @@
             },
             {
                 "mac": "alt+cmd+s",
-                "key": "ctrl+alt+s",
+                "key": "alt+ctrl+s",
                 "command": "workbench.action.files.saveAll"
             },
             {
@@ -68,9 +68,25 @@
             },
             {
                 "cmd": "shift+alt+.",
-                "key": "shift+alt+.",
+                "key": "ctrl+alt+.",
                 "command": "editor.action.smartSelect.expand",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "shift+alt+,",
+                "key": "ctrl+alt+,",
+                "command": "editor.action.smartSelect.shrink",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "shift+cmd+.",
+                "key": "shift+ctrl+.",
+                "command": "workbench.action.navigateForward"
+            },
+            {
+                "mac": "shift+cmd+,",
+                "key": "shift+ctrl+,",
+                "command": "workbench.action.navigateBack"
             },
             {
                 "cmd": "cmd+n",
@@ -83,28 +99,71 @@
                 "command": "workbench.action.files.saveWithoutFormatting"
             },
             {
-                "mac": "shift+cmd+,",
-                "command": "editor.action.smartSelect.shrink",
-                "when": "editorTextFocus"
-            },
-            {
-                "mac": "shift+cmd+,",
-                "command": "editor.action.smartSelect.shrink",
-                "when": "editorTextFocus"
-            },
-            {
                 "cmd": "cmd+k cmd+,",
                 "key": "ctrl+k ctrl+,",
                 "command": "workbench.action.openGlobalKeybindings"
             },
             {
                 "mac": "shift+cmd+backspace",
-                "key": "CHECK:shift+ctrl+backspace",
+                "key": "shift+ctrl+backspace",
                 "command": "workbench.action.terminal.kill",
-                "when": "terminalFocus"
+                "when": "terminalFocus || terminalTabsFocus"
+            },
+            {
+                "mac": "alt+cmd+p",
+                "key": "ctrl+alt+p",
+                "command": "git.push"
+            },
+            {
+                "mac": "cmd+k alt+cmd+p",
+                "key": "ctrl+k ctrl+alt+p",
+                "command": "git.pull"
+            },
+            {
+                "mac": "ctrl+r",
+                "key": "ctrl+y",
+                "command": "github-manager.open-github-repos"
+            },
+            {
+                "mac": "ctrl+alt+r",
+                "key": "ctrl+alt+y",
+                "command": "github-manager.open-non-git-dirs"
+            },
+            {
+                "mac": "cmd+k ctrl+r",
+                "key": "ctrl+k ctrl+y",
+                "command": "github-manager.open-non-remote-repos"
+            },
+            {
+                "mac": "cmd+k shift+cmd+r",
+                "key": "ctrl+k shift+ctrl+r",
+                "command": "workbench.action.reloadWindow"
+            },
+            {
+                "mac": "cmd+k cmd+e",
+                "key": "ctrl+k ctrl+e",
+                "command": "errorLens.toggle"
+            },
+            {
+                "mac": "cmd+k o",
+                "key": "ctrl+k o",
+                "command": "notifications.clearAll"
+            },
+            {
+                "mac": "ctrl+t",
+                "key": "alt+t",
+                "command": "extension.transpose"
+            },
+            {
+                "mac": "cmd+k i",
+                "key": "ctrl+k i",
+                "command": "editor.action.showDefinitionPreviewHover"
+            },
+            {
+                "key": "shift+alt+n",
+                "command": "editor.action.marker.next",
+                "when": "editorFocus"
             }
-            "git-push",
-            {}
         ]
     },
     "galleryBanner": {
@@ -112,13 +171,12 @@
         "theme": "dark"
     },
     "engines": {
-        "vscode": "^1.58.2"
+        "vscode": "^1.59.0"
     },
     "qna": false,
     "author": "Vitaly Turovsky <vital2580@icloud.com>",
     "license": "MIT",
     "devDependencies": {
-        "@types/vscode": "^1.58.1",
-        "@zardoy/vscode-tools": "https://github.com/zardoy/vscode-tools#build"
+        "@types/vscode": "^1.59.0"
     }
 }
