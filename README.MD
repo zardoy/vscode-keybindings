@@ -19,7 +19,6 @@ I hope you find them useful.
 
 These are less important.
 
-- `ctrl+k s`: Run `start` or `dev` script.
 - `alt+cmd+S or ctrl+alt+s`: Save all files. Because we don't have built-in key.
 - `ctrl+k ctrl+b`: Toggle sidebar. `ctrl+b` won't work in `.MD` files with Markdown extension.
 

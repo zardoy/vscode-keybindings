@@ -2,7 +2,7 @@
     "name": "keybindings",
     "displayName": "Zardoy Keybindings",
     "publisher": "zardoy",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "My full list of opinionated keybindings",
     "repository": "https://github.com/zardoy/vscode-keybindings.git",
     "keywords": [
