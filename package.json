@@ -142,6 +142,7 @@
             {
                 "mac": "cmd+k cmd+e",
                 "key": "ctrl+k ctrl+e",
+                "when": "editorTextFocus",
                 "command": "errorLens.toggle"
             },
             {
