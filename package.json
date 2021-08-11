@@ -38,13 +38,13 @@
                 "mac": "cmd+shift+d",
                 "key": "ctrl+shift+d",
                 "command": "editor.action.copyLinesDownAction",
-                "when": "editorFocus"
+                "when": "editorTextFocus"
             },
             {
                 "mac": "cmd+k cmd+shift+d",
                 "key": "ctrl+k ctrl+shift+d",
                 "command": "editor.action.duplicateSelection",
-                "when": "editorFocus"
+                "when": "editorTextFocus"
             },
             {
                 "mac": "alt+cmd+s",
@@ -59,7 +59,8 @@
             {
                 "mac": "cmd+r",
                 "key": "ctrl+r",
-                "command": "editor.action.rename"
+                "command": "editor.action.rename",
+                "when": "editorTextFocus"
             },
             {
                 "mac": "cmd+k l",
@@ -142,8 +143,8 @@
             {
                 "mac": "cmd+k cmd+e",
                 "key": "ctrl+k ctrl+e",
-                "when": "editorTextFocus",
-                "command": "errorLens.toggle"
+                "command": "errorLens.toggle",
+                "when": "editorTextFocus"
             },
             {
                 "mac": "cmd+k o",
@@ -163,7 +164,37 @@
             {
                 "key": "shift+alt+n",
                 "command": "editor.action.marker.next",
-                "when": "editorFocus"
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "shift+cmd+[",
+                "key": "shift+ctrl+[",
+                "command": "workbench.action.terminal.focusPrevious",
+                "when": "terminalFocus || terminalTabsFocus"
+            },
+            {
+                "mac": "shift+cmd+]",
+                "key": "shift+ctrl+]",
+                "command": "workbench.action.terminal.focusNext",
+                "when": "terminalFocus || terminalTabsFocus"
+            },
+            {
+                "mac": "cmd+k cmd+u",
+                "key": "ctrl+k ctrl+u",
+                "command": "editor.action.transformToUppercase",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+k cmd+l",
+                "key": "ctrl+k ctrl+l",
+                "command": "editor.action.transformToLowercase",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+alt+/",
+                "key": "shift+ctrl+/",
+                "command": "editor.action.blockComment",
+                "when": "editorTextFocus"
             }
         ]
     },
