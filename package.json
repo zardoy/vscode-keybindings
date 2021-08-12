@@ -2,7 +2,7 @@
     "name": "keybindings",
     "displayName": "Zardoy Keybindings",
     "publisher": "zardoy",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "My full list of opinionated keybindings",
     "repository": "https://github.com/zardoy/vscode-keybindings.git",
     "keywords": [
@@ -246,6 +246,12 @@
                 "key": "ctrl+k shift+ctrl+u",
                 "command": "workbench.action.output.toggleOutput",
                 "when": "workbench.panel.output.active"
+            },
+            {
+                "mac": "shift+cmd+r",
+                "key": "shift+alt+r",
+                "command": "revealFileInOS",
+                "when": "editorTextFocus || filesExplorerFocus"
             }
         ]
     },
