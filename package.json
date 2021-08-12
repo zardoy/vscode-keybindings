@@ -2,7 +2,7 @@
     "name": "keybindings",
     "displayName": "Zardoy Keybindings",
     "publisher": "zardoy",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "My full list of opinionated keybindings",
     "repository": "https://github.com/zardoy/vscode-keybindings.git",
     "keywords": [
@@ -234,6 +234,18 @@
                 "key": "ctrl+i",
                 "command": "editor.action.triggerParameterHints",
                 "when": "editorHasSignatureHelpProvider && editorTextFocus"
+            },
+            {
+                "mac": "shift+cmd+u",
+                "key": "shift+ctrl+u",
+                "command": "workbench.action.terminal.toggleTerminal",
+                "when": "terminal.active"
+            },
+            {
+                "mac": "cmd+k shift+cmd+u",
+                "key": "ctrl+k shift+ctrl+u",
+                "command": "workbench.action.output.toggleOutput",
+                "when": "workbench.panel.output.active"
             }
         ]
     },
