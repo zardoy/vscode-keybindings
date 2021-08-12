@@ -202,8 +202,8 @@
                 "when": "editorTextFocus"
             },
             {
-                "mac": "cmd+k enter",
-                "key": "ctrl+k enter",
+                "mac": "shift+cmd+enter",
+                "key": "shift+ctrl+enter",
                 "command": "workbench.action.toggleMaximizedPanel",
                 "when": "terminalFocus || terminalTabsFocus"
             },
