@@ -2,7 +2,7 @@
     "name": "keybindings",
     "displayName": "Zardoy Keybindings",
     "publisher": "zardoy",
-    "version": "0.1.0",
+    "version": "0.0.2",
     "description": "My full list of opinionated keybindings",
     "repository": "https://github.com/zardoy/vscode-keybindings.git",
     "keywords": [
@@ -121,19 +121,24 @@
                 "command": "git.pull"
             },
             {
-                "mac": "ctrl+r",
-                "key": "ctrl+y",
+                "mac": "cmd+u",
+                "key": "ctrl+u",
                 "command": "github-manager.open-github-repos"
             },
             {
-                "mac": "ctrl+alt+r",
-                "key": "ctrl+alt+y",
+                "mac": "cmd+alt+u",
+                "key": "ctrl+alt+u",
                 "command": "github-manager.open-non-git-dirs"
             },
             {
-                "mac": "cmd+k ctrl+r",
-                "key": "ctrl+k ctrl+y",
+                "mac": "cmd+k cmd+u",
+                "key": "ctrl+k ctrl+u",
                 "command": "github-manager.open-non-remote-repos"
+            },
+            {
+                "key": "cmd+k cmd+/",
+                "command": "editor.action.removeCommentLine",
+                "when": "editorTextFocus && !editorReadonly"
             },
             {
                 "mac": "cmd+k shift+cmd+r",
@@ -195,6 +200,40 @@
                 "key": "shift+ctrl+/",
                 "command": "editor.action.blockComment",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+k enter",
+                "key": "ctrl+k enter",
+                "command": "workbench.action.toggleMaximizedPanel",
+                "when": "terminalFocus || terminalTabsFocus"
+            },
+            {
+                "mac": "cmd+k n",
+                "key": "ctrl+k n",
+                "command": "workbench.files.action.collapseExplorerFolders"
+            },
+            {
+                "mac": "cmd+k e",
+                "key": "ctrl+k e",
+                "command": "workbench.action.showEditorsInActiveGroup"
+            },
+            {
+                "mac": "cmd+y",
+                "key": "ctrl+y",
+                "command": "editor.action.peekDefinition",
+                "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+            },
+            {
+                "mac": "cmd+k cmd+y",
+                "key": "ctrl+k ctrl+y",
+                "command": "editor.action.peekTypeDefinition",
+                "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+            },
+            {
+                "mac": "alt+escape",
+                "key": "ctrl+i",
+                "command": "editor.action.triggerParameterHints",
+                "when": "editorHasSignatureHelpProvider && editorTextFocus"
             }
         ]
     },
