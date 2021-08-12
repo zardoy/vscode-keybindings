@@ -8,8 +8,6 @@ Sometimes mac and win have different keys, but in most of cases CTRL = CMD.
 
 ## Important Defaults
 
-I hope you find them useful.
-
 - Never Close Windows on `CTRL+W`
 - `CTRL+N`: Create file **always** in explorer. It means, that you need to **first name it** and only then you can write code.
 - `CTRL+SHIFT+D`: Duplicate line, because default shortcuts with arrows are bad.
