@@ -2,7 +2,7 @@
     "name": "keybindings",
     "displayName": "Zardoy Keybindings",
     "publisher": "zardoy",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "My full list of opinionated keybindings",
     "repository": "https://github.com/zardoy/vscode-keybindings.git",
     "keywords": [
@@ -121,8 +121,8 @@
                 "command": "git.pull"
             },
             {
-                "mac": "cmd+u",
-                "key": "ctrl+u",
+                "mac": "shift+cmd+u",
+                "key": "shift+ctrl+u",
                 "command": "github-manager.open-github-repos"
             },
             {
@@ -236,8 +236,8 @@
                 "when": "editorHasSignatureHelpProvider && editorTextFocus"
             },
             {
-                "mac": "shift+cmd+u",
-                "key": "shift+ctrl+u",
+                "mac": "cmd+u",
+                "key": "ctrl+u",
                 "command": "workbench.action.terminal.toggleTerminal",
                 "when": "terminal.active"
             },
@@ -252,6 +252,11 @@
                 "key": "shift+alt+r",
                 "command": "revealFileInOS",
                 "when": "editorTextFocus || filesExplorerFocus"
+            },
+            {
+                "mac": "cmd+k shift+cmd+e",
+                "key": "ctrl+k shift+ctrl+e",
+                "command": "errorLens.toggleWarning"
             }
         ]
     },
