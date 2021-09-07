@@ -131,8 +131,8 @@
                 "command": "github-manager.open-non-git-dirs"
             },
             {
-                "mac": "cmd+k cmd+u",
-                "key": "ctrl+k ctrl+u",
+                "mac": "cmd+k cmd+alt+u",
+                "key": "ctrl+k ctrl+alt+u",
                 "command": "github-manager.open-non-remote-repos"
             },
             {
@@ -265,12 +265,12 @@
         "theme": "dark"
     },
     "engines": {
-        "vscode": "^1.59.0"
+        "vscode": "^1.60.0"
     },
     "qna": false,
     "author": "Vitaly Turovsky <vital2580@icloud.com>",
     "license": "MIT",
     "devDependencies": {
-        "@types/vscode": "^1.59.0"
+        "@types/vscode": "^1.60.0"
     }
 }
