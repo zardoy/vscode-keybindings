@@ -2,7 +2,7 @@
     "name": "keybindings",
     "displayName": "Zardoy Keybindings",
     "publisher": "zardoy",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "My full list of opinionated keybindings",
     "repository": "https://github.com/zardoy/vscode-keybindings.git",
     "keywords": [
@@ -69,13 +69,13 @@
             },
             {
                 "mac": "shift+alt+.",
-                "key": "ctrl+alt+.",
+                "key": "shift+alt+.",
                 "command": "editor.action.smartSelect.expand",
                 "when": "editorTextFocus"
             },
             {
                 "mac": "shift+alt+,",
-                "key": "ctrl+alt+,",
+                "key": "shift+alt+,",
                 "command": "editor.action.smartSelect.shrink",
                 "when": "editorTextFocus"
             },
@@ -226,6 +226,12 @@
             {
                 "mac": "cmd+k cmd+y",
                 "key": "ctrl+k ctrl+y",
+                "command": "editor.action.goToReferences",
+                "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+            },
+            {
+                "key": "ctrl+k shift+ctrl+y",
+                "mac": "cmd+k shift+cmd+y",
                 "command": "editor.action.peekTypeDefinition",
                 "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
             },
@@ -257,6 +263,76 @@
                 "mac": "cmd+k shift+cmd+e",
                 "key": "ctrl+k shift+ctrl+e",
                 "command": "errorLens.toggleWarning"
+            },
+            {
+                "mac": "cmd+'",
+                "key": "ctrl+'",
+                "command": "-editor.togglequotes"
+            },
+            {
+                "mac": "cmd+k cmd+'",
+                "win": "ctrl+k ctrl+'",
+                "command": "editor.togglequotes"
+            },
+            {
+                "key": "alt+1",
+                "command": "workbench.action.focusFirstEditorGroup"
+            },
+            {
+                "key": "ctrl+1",
+                "mac": "cmd+1",
+                "command": "-workbench.action.focusFirstEditorGroup"
+            },
+            {
+                "key": "alt+2",
+                "command": "workbench.action.focusSecondEditorGroup"
+            },
+            {
+                "key": "ctrl+2",
+                "mac": "cmd+2",
+                "command": "-workbench.action.focusSecondEditorGroup"
+            },
+            {
+                "key": "alt+3",
+                "command": "workbench.action.focusThirdEditorGroup"
+            },
+            {
+                "key": "ctrl+3",
+                "mac": "cmd+3",
+                "command": "-workbench.action.focusThirdEditorGroup"
+            },
+            {
+                "key": "ctrl+shift+t",
+                "mac": "shift+cmd+t",
+                "command": "-surround.with",
+                "when": "editorHasSelection"
+            },
+            {
+                "key": "ctrl+1",
+                "mac": "cmd+1",
+                "command": "surround.with",
+                "when": "editorHasSelection"
+            },
+            {
+                "key": "shift+ctrl+i",
+                "mac": "shift+cmd+i",
+                "command": "eslint.executeAutofix"
+            },
+            {
+                "key": "ctrl+; shift+ctrl+r",
+                "mac": "cmd+; shift+cmd+r",
+                "command": "typescript.restartTsServer"
+            },
+            {
+                "key": "alt+g",
+                "mac": "alt+g",
+                "command": "workbench.view.scm",
+                "when": "workbench.scm.active"
+            },
+            {
+                "key": "ctrl+\\",
+                "mac": "cmd+\\",
+                "command": "-workbench.action.splitEditor"
             }
         ]
     },

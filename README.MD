@@ -21,11 +21,17 @@ These are less important.
 - `ctrl+k ctrl+b`: Toggle sidebar. `ctrl+b` won't work in `.MD` files with Markdown extension.
 - (mac) `alt+escape` Show parameter hints (to trigger autocomplete: `CMD+I`)
 
+## Removed Annoying Keybinings
+
+Just because it's opinionated, I don't use Split editor (CMD+\). I removed it also because I often misclick that button, because of one-level enter. I don't use this shortcut for anything right now.
+
 ## Extension Shortcuts
 
 - transpose: v4run.transpose
 - GitHub Manager
 - Change Case menus: hjdarnel.vscode-change-case
+- <kbd>CMD+1</kbd>: Surround
+
 
 ## TODO
 
