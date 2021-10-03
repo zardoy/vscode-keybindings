@@ -11,6 +11,6 @@ jobs:
       - uses: actions/setup-node@v2
       - run: npm i -g pnpm
       - run: pnpm i vsce
-      - run: pnpm vsce
+      - run: pnpm vsce publish
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
