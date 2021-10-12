@@ -2,7 +2,7 @@
     "name": "keybindings",
     "displayName": "Zardoy Keybindings",
     "publisher": "zardoy",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "My full list of opinionated keybindings",
     "repository": "https://github.com/zardoy/vscode-keybindings.git",
     "keywords": [
@@ -26,13 +26,15 @@
             },
             {
                 "mac": "shift+cmd+[",
-                "key": "ctrl+pageup",
-                "command": "workbench.action.previousEditor"
+                "key": "shift+ctrl+[",
+                "command": "workbench.action.previousEditor",
+                "when": "!terminalFocus && !terminalTabsFocus"
             },
             {
                 "mac": "shift+cmd+]",
-                "key": "ctrl+pagedown",
-                "command": "workbench.action.nextEditor"
+                "key": "shift+ctrl+]",
+                "command": "workbench.action.nextEditor",
+                "when": "!terminalFocus && !terminalTabsFocus"
             },
             {
                 "mac": "cmd+shift+d",
@@ -69,13 +71,13 @@
             },
             {
                 "mac": "shift+alt+.",
-                "key": "shift+alt+.",
+                "key": "ctrl+alt+.",
                 "command": "editor.action.smartSelect.expand",
                 "when": "editorTextFocus"
             },
             {
                 "mac": "shift+alt+,",
-                "key": "shift+alt+,",
+                "key": "ctrl+alt+,",
                 "command": "editor.action.smartSelect.shrink",
                 "when": "editorTextFocus"
             },
@@ -316,7 +318,8 @@
             {
                 "key": "shift+ctrl+i",
                 "mac": "shift+cmd+i",
-                "command": "eslint.executeAutofix"
+                "command": "eslint.executeAutofix",
+                "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+; shift+ctrl+r",
@@ -333,6 +336,30 @@
                 "key": "ctrl+\\",
                 "mac": "cmd+\\",
                 "command": "-workbench.action.splitEditor"
+            },
+            {
+                "win": "f2",
+                "command": "renameFile"
+            },
+            {
+                "key": "ctrl+k b",
+                "mac": "cmd+k b",
+                "command": "editor.emmet.action.removeTag"
+            },
+            {
+                "key": "ctrl+k h",
+                "mac": "cmd+k h",
+                "command": "editor.emmet.action.wrapWithAbbreviation"
+            },
+            {
+                "key": "alt+up",
+                "command": "workbench.action.compareEditor.nextChange",
+                "when": "textCompareEditorVisible"
+            },
+            {
+                "key": "alt+down",
+                "command": "workbench.action.compareEditor.previousChange",
+                "when": "textCompareEditorVisible"
             }
         ]
     },
