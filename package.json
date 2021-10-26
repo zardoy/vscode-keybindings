@@ -360,6 +360,98 @@
                 "key": "alt+down",
                 "command": "workbench.action.compareEditor.previousChange",
                 "when": "textCompareEditorVisible"
+            },
+            {
+                "key": "ctrl+r",
+                "mac": "cmd+r",
+                "command": "workbench.action.reloadWindow",
+                "when": "isDevelopment"
+            },
+            {
+                "key": "tab",
+                "command": "-insertSnippet",
+                "when": "editorTextFocus && hasSnippetCompletions && !editorTabMovesFocus && !inSnippetMode"
+            },
+            {
+                "win": "alt+right",
+                "command": "cursorEnd",
+                "when": "editorTextFocus"
+            },
+            {
+                "win": "alt+left",
+                "command": "cursorHome",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+k s",
+                "mac": "cmd+k s",
+                "command": "npmTheFastest.runMainNpmScript"
+            },
+            {
+                "key": "ctrl+g",
+                "command": "extraCommands.goToLine"
+            },
+            {
+                "key": "ctrl+k shift+ctrl+,",
+                "mac": "cmd+k shift+cmd+,",
+                "command": "workbench.action.openSettingsJson"
+            },
+            {
+                "key": "ctrl+k ctrl+r",
+                "mac": "cmd+k cmd+r",
+                "command": "npmTheFastest.runNpmScript"
+            },
+            {
+                "key": "alt+\\",
+                "mac": "ctrl+\\",
+                "command": "runActiveDevelopmentCommand"
+            },
+            {
+                "key": "ctrl+alt+\\",
+                "mac": "alt+cmd+\\",
+                "command": "focusActiveDevelopmentExtensionOutput"
+            },
+            {
+                "key": "tab",
+                "command": "-acceptSelectedSuggestion",
+                "when": "suggestWidgetVisible && textInputFocus"
+            },
+            {
+                "key": "alt+o",
+                "mac": "cmd+o",
+                "command": "notifications.focusToasts"
+            },
+            {
+                "key": "ctrl+k ctrl+shift+x",
+                "mac": "cmd+k cmd+shift+x",
+                "command": "workbench.extensions.action.showInstalledExtensions"
+            },
+            {
+                "key": "ctrl+k p",
+                "mac": "cmd+k p",
+                "command": "npmTheFastest.openClosestPackageJson"
+            },
+            {
+                "key": "ctrl+j",
+                "mac": "cmd+j",
+                "command": "extraCommands.openTerminalWithoutFocus",
+                "when": "!panelFocus"
+            },
+            {
+                "key": "ctrl+u",
+                "mac": "cmd+u",
+                "command": "workbench.action.focusActiveEditorGroup",
+                "when": "terminalFocus"
+            },
+            {
+                "key": "ctrl+\\",
+                "mac": "cmd+\\",
+                "command": "extraCommands.addImport"
+            },
+            {
+                "key": "ctrl+k shift+ctrl+j",
+                "mac": "cmd+k shift+cmd+j",
+                "command": "npmTheFastest.removePackages"
             }
         ]
     },
