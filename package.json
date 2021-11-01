@@ -452,6 +452,41 @@
                 "key": "ctrl+k shift+ctrl+j",
                 "mac": "cmd+k shift+cmd+j",
                 "command": "npmTheFastest.removePackages"
+            },
+            {
+                "mac": "cmd+; p",
+                "key": "ctrl+; p",
+                "command": "git.push"
+            },
+            {
+                "mac": "cmd+; g",
+                "key": "ctrl+; g",
+                "command": "gitlens.openBranchOnRemote"
+            },
+            {
+                "mac": "cmd+; s",
+                "key": "ctrl+; s",
+                "command": "git.sync"
+            },
+            {
+                "win": "alt+w",
+                "linux": "alt+w",
+                "command": "workbench.action.switchWindow"
+            },
+            {
+                "mac": "cmd+k cmd+alt+,",
+                "key": "ctrl+k ctrl+alt+,",
+                "command": "workbench.action.openGlobalKeybindingsFile"
+            },
+            {
+                "mac": "cmd+; d",
+                "key": "ctrl+; d",
+                "command": "git.cleanAll"
+            },
+            {
+                "mac": "cmd+; shift+d",
+                "key": "ctrl+; shift+d",
+                "command": "git.cleanAllTracked"
             }
         ]
     },
