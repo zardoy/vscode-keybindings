@@ -22,9 +22,12 @@ These are less important.
 - `ctrl+k ctrl+b`: Toggle sidebar. `ctrl+b` won't work in `.MD` files with Markdown extension.
 - (mac) `alt+escape` Show parameter hints (to trigger autocomplete: `CMD+I`)
 
-## Removed Annoying Keybindings
+## Keybindings to Remove
 
-Some of them were reassigned:
+- tab: acceptSelectedSuggestion
+- tab: insertSnippet
+- ctrl+': editor.togglequotes
+- ctrl+shift+t: surround.with
 
 - Ctrl+/ new typescript import – I reassigned it also because I often misclick that button, because of one-level enter. I don't really use this shortcut right now.
 

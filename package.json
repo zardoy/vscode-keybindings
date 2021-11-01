@@ -113,16 +113,6 @@
                 "when": "terminalFocus || terminalTabsFocus"
             },
             {
-                "mac": "alt+cmd+p",
-                "key": "ctrl+alt+p",
-                "command": "git.push"
-            },
-            {
-                "mac": "cmd+k alt+cmd+p",
-                "key": "ctrl+k ctrl+alt+p",
-                "command": "git.pull"
-            },
-            {
                 "mac": "shift+cmd+u",
                 "key": "shift+ctrl+u",
                 "command": "github-manager.open-github-repos"
@@ -228,7 +218,7 @@
             {
                 "mac": "cmd+k cmd+y",
                 "key": "ctrl+k ctrl+y",
-                "command": "editor.action.goToReferences",
+                "command": "editor.action.referenceSearch.trigger",
                 "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
             },
             {
@@ -267,11 +257,6 @@
                 "command": "errorLens.toggleWarning"
             },
             {
-                "mac": "cmd+'",
-                "key": "ctrl+'",
-                "command": "-editor.togglequotes"
-            },
-            {
                 "mac": "cmd+k cmd+'",
                 "win": "ctrl+k ctrl+'",
                 "command": "editor.togglequotes"
@@ -281,33 +266,12 @@
                 "command": "workbench.action.focusFirstEditorGroup"
             },
             {
-                "key": "ctrl+1",
-                "mac": "cmd+1",
-                "command": "-workbench.action.focusFirstEditorGroup"
-            },
-            {
                 "key": "alt+2",
                 "command": "workbench.action.focusSecondEditorGroup"
             },
             {
-                "key": "ctrl+2",
-                "mac": "cmd+2",
-                "command": "-workbench.action.focusSecondEditorGroup"
-            },
-            {
                 "key": "alt+3",
                 "command": "workbench.action.focusThirdEditorGroup"
-            },
-            {
-                "key": "ctrl+3",
-                "mac": "cmd+3",
-                "command": "-workbench.action.focusThirdEditorGroup"
-            },
-            {
-                "key": "ctrl+shift+t",
-                "mac": "shift+cmd+t",
-                "command": "-surround.with",
-                "when": "editorHasSelection"
             },
             {
                 "key": "ctrl+1",
@@ -331,11 +295,6 @@
                 "mac": "alt+g",
                 "command": "workbench.view.scm",
                 "when": "workbench.scm.active"
-            },
-            {
-                "key": "ctrl+\\",
-                "mac": "cmd+\\",
-                "command": "-workbench.action.splitEditor"
             },
             {
                 "win": "f2",
@@ -366,11 +325,6 @@
                 "mac": "cmd+r",
                 "command": "workbench.action.reloadWindow",
                 "when": "isDevelopment"
-            },
-            {
-                "key": "tab",
-                "command": "-insertSnippet",
-                "when": "editorTextFocus && hasSnippetCompletions && !editorTabMovesFocus && !inSnippetMode"
             },
             {
                 "win": "alt+right",
@@ -410,11 +364,6 @@
                 "key": "ctrl+alt+\\",
                 "mac": "alt+cmd+\\",
                 "command": "focusActiveDevelopmentExtensionOutput"
-            },
-            {
-                "key": "tab",
-                "command": "-acceptSelectedSuggestion",
-                "when": "suggestWidgetVisible && textInputFocus"
             },
             {
                 "key": "alt+o",
