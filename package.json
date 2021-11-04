@@ -1,5 +1,6 @@
 {
     "name": "keybindings",
+    "private": true,
     "displayName": "Zardoy Keybindings",
     "publisher": "zardoy",
     "version": "0.0.12",
