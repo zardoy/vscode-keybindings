@@ -343,6 +343,16 @@
                 "when": "editorTextFocus"
             },
             {
+                "win": "shift+alt+left",
+                "command": "cursorHomeSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "win": "shift+alt+right",
+                "command": "cursorEndSelect",
+                "when": "textInputFocus"
+            },
+            {
                 "key": "ctrl+k s",
                 "mac": "cmd+k s",
                 "command": "npmTheFastest.runMainNpmScript"
