@@ -116,17 +116,22 @@
             {
                 "mac": "shift+cmd+u",
                 "key": "shift+ctrl+u",
-                "command": "github-manager.open-github-repos"
+                "command": "githubManager.openClonedGithubRepository"
+            },
+            {
+                "mac": "cmd+; shift+cmd+u",
+                "key": "ctrl+; shift+ctrl+u",
+                "command": "githubManager.openGithubRepository"
             },
             {
                 "mac": "cmd+alt+u",
                 "key": "ctrl+alt+u",
-                "command": "github-manager.open-non-git-dirs"
+                "command": "githubManager.openNonGitDirectory"
             },
             {
                 "mac": "cmd+k cmd+alt+u",
                 "key": "ctrl+k ctrl+alt+u",
-                "command": "github-manager.open-non-remote-repos"
+                "command": "githubManager.githubManager.openNonRemoteRepository"
             },
             {
                 "key": "cmd+k cmd+/",
@@ -293,7 +298,7 @@
             },
             {
                 "key": "alt+g",
-                "mac": "alt+g",
+                "mac": "cmd+g",
                 "command": "workbench.view.scm",
                 "when": "workbench.scm.active"
             },
@@ -411,7 +416,7 @@
             {
                 "mac": "cmd+; g",
                 "key": "ctrl+; g",
-                "command": "gitlens.openBranchOnRemote"
+                "command": "githubManager.openAtGithub"
             },
             {
                 "mac": "cmd+; s",
@@ -437,6 +442,86 @@
                 "mac": "cmd+; shift+d",
                 "key": "ctrl+; shift+d",
                 "command": "git.cleanAllTracked"
+            },
+            {
+                "mac": "cmd+; cmd+d",
+                "key": "ctrl+; ctrl+d",
+                "command": "editor.action.moveSelectionToPreviousFindMatch"
+            },
+            {
+                "mac": "cmd+k shift+d",
+                "key": "ctrl+k shift+d",
+                "command": "editor.action.addSelectionToPreviousFindMatch"
+            },
+            {
+                "mac": "cmd+k shift+d",
+                "key": "ctrl+k shift+d",
+                "command": "editor.action.addSelectionToPreviousFindMatch"
+            },
+            {
+                "mac": "cmd+; r",
+                "key": "ctrl+; r",
+                "command": "git.openChange"
+            },
+            {
+                "mac": "cmd+; shift+r",
+                "key": "ctrl+; shift+r",
+                "command": "git.openFile"
+            },
+            {
+                "mac": "cmd+; u",
+                "key": "ctrl+; u",
+                "command": "git.stageSelectedRanges",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+; u",
+                "key": "ctrl+; u",
+                "command": "git.stageSelectedRanges",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+; shift+u",
+                "key": "ctrl+; shift+u",
+                "command": "git.unstageSelectedRanges",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+; c",
+                "key": "ctrl+; c",
+                "command": "git.commit"
+            },
+            {
+                "mac": "cmd+; shift+c",
+                "key": "ctrl+; shift+c",
+                "command": "git.stageAllTracked"
+            },
+            {
+                "mac": "cmd+; shift+g",
+                "key": "ctrl+; shift+g",
+                "command": "git.checkout"
+            },
+            {
+                "mac": "cmd+; shift+t",
+                "key": "ctrl+; shift+t",
+                "command": "toggle.diff.renderSideBySide"
+            },
+            {
+                "mac": "cmd+; 1",
+                "key": "ctrl+; 1",
+                "command": "toggle",
+                "when": "editorTextFocus",
+                "args": {
+                    "id": "returnInlayHints",
+                    "value": [
+                        {
+                            "typescript.inlayHints.functionLikeReturnTypes.enabled": true
+                        },
+                        {
+                            "typescript.inlayHints.functionLikeReturnTypes.enabled": false
+                        }
+                    ]
+                }
             }
         ]
     },
