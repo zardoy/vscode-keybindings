@@ -532,6 +532,11 @@
                         }
                     ]
                 }
+            },
+            {
+                "mac": "cmd+; shift+alt+u",
+                "key": "ctrl+; shift+alt+u",
+                "command": "git.revertSelectedRanges"
             }
         ]
     },
