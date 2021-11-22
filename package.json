@@ -134,6 +134,11 @@
                 "command": "githubManager.githubManager.openNonRemoteRepository"
             },
             {
+                "mac": "cmd+; cmd+alt+u",
+                "key": "ctrl+; ctrl+alt+u",
+                "command": "remoteHub.openRepository"
+            },
+            {
                 "key": "cmd+k cmd+/",
                 "command": "editor.action.removeCommentLine",
                 "when": "editorTextFocus && !editorReadonly"
@@ -400,7 +405,7 @@
                 "key": "ctrl+j",
                 "mac": "cmd+j",
                 "command": "extraCommands.openTerminalWithoutFocus",
-                "when": "!panelFocus"
+                "when": "!panelVisible"
             },
             {
                 "key": "ctrl+u",
