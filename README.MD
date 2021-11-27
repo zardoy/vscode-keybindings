@@ -34,9 +34,9 @@ These are less important.
 ## Extension Shortcuts
 
 - transpose: v4run.transpose
-- GitHub Manager
-- Extra Commands
-- NPM THE FASTEST
+- [GitHub Manager](https://github.com/zardoy/github-manager)
+- [Extra Commands](https://github.com/zardoy/extra-commands)
+- [NPM THE FASTEST](https://github.com/zardoy/npm-the-fastest)
 - Change Case menus: hjdarnel.vscode-change-case
 - <kbd>CMD+1</kbd>: Surround
 

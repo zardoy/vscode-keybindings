@@ -131,7 +131,7 @@
             {
                 "mac": "cmd+k cmd+alt+u",
                 "key": "ctrl+k ctrl+alt+u",
-                "command": "githubManager.githubManager.openNonRemoteRepository"
+                "command": "githubManager.openNonRemoteRepository"
             },
             {
                 "mac": "cmd+; cmd+alt+u",
@@ -372,8 +372,8 @@
                 "command": "workbench.action.openSettingsJson"
             },
             {
-                "key": "ctrl+k ctrl+r",
-                "mac": "cmd+k cmd+r",
+                "key": "shift+ctrl+r",
+                "mac": "shift+cmd+r",
                 "command": "npmTheFastest.runNpmScript"
             },
             {
@@ -422,6 +422,11 @@
                 "key": "ctrl+k shift+ctrl+j",
                 "mac": "cmd+k shift+cmd+j",
                 "command": "npmTheFastest.removePackages"
+            },
+            {
+                "key": "shift+ctrl+j",
+                "mac": "shift+cmd+j",
+                "command": "npmTheFastest.addPackages"
             },
             {
                 "mac": "cmd+; p",
@@ -542,6 +547,11 @@
                 "mac": "cmd+; shift+alt+u",
                 "key": "ctrl+; shift+alt+u",
                 "command": "git.revertSelectedRanges"
+            },
+            {
+                "mac": "cmd+; cmd+h",
+                "key": "ctrl+; ctrl+h",
+                "command": "git-graph.view"
             }
         ]
     },
