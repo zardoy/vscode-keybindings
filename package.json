@@ -223,7 +223,7 @@
             {
                 "mac": "cmd+y",
                 "key": "ctrl+y",
-                "command": "editor.action.peekDefinition",
+                "command": "editor.action.revealDefinition",
                 "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
             },
             {
