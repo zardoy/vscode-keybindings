@@ -171,7 +171,7 @@
             },
             {
                 "key": "shift+alt+n",
-                "command": "editor.action.marker.next",
+                "command": "zardoyExperiments.goToNextErrorInFile",
                 "when": "editorTextFocus"
             },
             {
@@ -416,7 +416,7 @@
             {
                 "key": "ctrl+\\",
                 "mac": "cmd+\\",
-                "command": "extraCommands.addImport"
+                "command": "zardoyExperiments.addImport"
             },
             {
                 "key": "ctrl+k shift+ctrl+j",
@@ -552,6 +552,38 @@
                 "mac": "cmd+; cmd+h",
                 "key": "ctrl+; ctrl+h",
                 "command": "git-graph.view"
+            },
+            {
+                "mac": "cmd+k cmd+m",
+                "key": "ctrl+k ctrl+m",
+                "command": "extension.search"
+            },
+            {
+                "mac": "cmd+k cmd+n",
+                "key": "ctrl+k ctrl+n",
+                "command": "fileutils.newFileAtRoot"
+            },
+            {
+                "key": "tab",
+                "command": "zardoyExperiments.tab",
+                "when": "editorTextFocus && !inSnippetMode && editorLangId == typescript || editorLangId == typescriptreact || editorLangId == javascript"
+            },
+            {
+                "mac": "ctrl+backspace",
+                "key": "alt+del",
+                "command": "extraCommands.removeSurroundingCharacter",
+                "when": "editorTextFocus && editorHasSelection"
+            },
+            {
+                "mac": "cmd+backspace",
+                "key": "alt+backspace",
+                "command": "extraCommands.deleteAllLeftAfterIndent",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+o",
+                "command": "zardoyExperiments.removeUnusedImports",
+                "when": "editorTextFocus"
             }
         ]
     },
