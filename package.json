@@ -584,6 +584,12 @@
                 "key": "shift+alt+o",
                 "command": "zardoyExperiments.removeUnusedImports",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+2",
+                "key": "ctrl+2",
+                "command": "zardoyExperiments.fixedSurroundIf",
+                "when": "editorTextFocus"
             }
         ]
     },
