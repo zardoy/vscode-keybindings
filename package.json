@@ -606,6 +606,75 @@
                 "key": "f11",
                 "when": "editorTextFocus",
                 "command": "editor.action.marker.prev"
+            },
+            {
+                "key": "ctrl+7",
+                "mac": "cmd+7",
+                "command": "zardoyExperiments.insertAutoCompletions",
+                "args": {
+                    "kind": "prop"
+                },
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+ctrl+7",
+                "mac": "shift+cmd+7",
+                "command": "zardoyExperiments.insertAutoCompletions",
+                "args": {
+                    "kind": "method"
+                },
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+8",
+                "mac": "cmd+8",
+                "command": "zardoyExperiments.insertAutoCompletions",
+                "args": {
+                    "snippetType": "each",
+                    "kind": "prop"
+                },
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+ctrl+8",
+                "mac": "shift+cmd+8",
+                "command": "zardoyExperiments.insertAutoCompletions",
+                "args": {
+                    "snippetType": "each",
+                    "kind": "method"
+                },
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+4",
+                "mac": "cmd+4",
+                "command": "editor.action.insertSnippet",
+                "args": {
+                    "snippet": "$TM_FILENAME_BASE"
+                },
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+ctrl+c",
+                "mac": "shift+cmd+c",
+                "when": "editorTextFocus",
+                "command": "zardoyExperiments.copyLineVariableName"
+            },
+            {
+                "key": "ctrl+; shift+ctrl+c",
+                "mac": "cmd+; shift+cmd+c",
+                "command": "copyFilePath"
+            },
+            {
+                "key": "alt+ctrl+c",
+                "mac": "alt+cmd+c",
+                "command": "copyRelativeFilePath"
+            },
+            {
+                "key": "ctrl+k shift+ctrl+c",
+                "mac": "cmd+k shift+cmd+c",
+                "command": "workbench.action.terminal.openNativeConsole",
+                "when": "!terminalFocus"
             }
         ]
     },
