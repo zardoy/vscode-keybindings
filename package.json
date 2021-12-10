@@ -570,7 +570,7 @@
             },
             {
                 "mac": "ctrl+backspace",
-                "key": "alt+del",
+                "key": "alt+delete",
                 "command": "extraCommands.removeSurroundingCharacter",
                 "when": "editorTextFocus && editorHasSelection"
             },
@@ -590,6 +590,22 @@
                 "key": "ctrl+2",
                 "command": "zardoyExperiments.fixedSurroundIf",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+shift+'",
+                "key": "ctrl+shift+'",
+                "when": "editorTextFocus",
+                "command": "zardoyExperiments.nextLetterSwapCase"
+            },
+            {
+                "key": "f12",
+                "when": "editorTextFocus",
+                "command": "editor.action.marker.next"
+            },
+            {
+                "key": "f11",
+                "when": "editorTextFocus",
+                "command": "editor.action.marker.prev"
             }
         ]
     },
