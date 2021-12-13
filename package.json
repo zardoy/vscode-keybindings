@@ -415,7 +415,7 @@
             {
                 "mac": "shift+cmd+j",
                 "key": "shift+ctrl+j",
-                "command": "workbench.action.toggleEditorGroupLayout",
+                "command": "workbench.action.togglePanel",
                 "when": "panelVisible"
             },
             {
