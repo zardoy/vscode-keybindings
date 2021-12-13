@@ -245,12 +245,6 @@
                 "when": "editorHasSignatureHelpProvider && editorTextFocus"
             },
             {
-                "mac": "cmd+u",
-                "key": "ctrl+u",
-                "command": "workbench.action.terminal.toggleTerminal",
-                "when": "terminal.active"
-            },
-            {
                 "mac": "cmd+k shift+cmd+u",
                 "key": "ctrl+k shift+ctrl+u",
                 "command": "workbench.action.output.toggleOutput",
@@ -322,12 +316,12 @@
                 "command": "editor.emmet.action.wrapWithAbbreviation"
             },
             {
-                "key": "alt+up",
+                "key": "alt+down",
                 "command": "workbench.action.compareEditor.nextChange",
                 "when": "textCompareEditorVisible"
             },
             {
-                "key": "alt+down",
+                "key": "alt+up",
                 "command": "workbench.action.compareEditor.previousChange",
                 "when": "textCompareEditorVisible"
             },
@@ -402,16 +396,33 @@
                 "command": "npmTheFastest.openClosestPackageJson"
             },
             {
-                "key": "ctrl+j",
-                "mac": "cmd+j",
-                "command": "extraCommands.openTerminalWithoutFocus",
-                "when": "!panelVisible"
+                "mac": "cmd+u",
+                "key": "ctrl+u",
+                "command": "workbench.action.focusPanel",
+                "when": "!panelFocus"
             },
             {
-                "key": "ctrl+u",
                 "mac": "cmd+u",
+                "key": "ctrl+u",
                 "command": "workbench.action.focusActiveEditorGroup",
-                "when": "terminalFocus"
+                "when": "panelFocus"
+            },
+            {
+                "mac": "cmd+j",
+                "key": "ctrl+j",
+                "command": "workbench.action.terminal.toggleTerminal"
+            },
+            {
+                "mac": "shift+cmd+j",
+                "key": "shift+ctrl+j",
+                "command": "workbench.action.toggleEditorGroupLayout",
+                "when": "panelVisible"
+            },
+            {
+                "mac": "shift+cmd+j",
+                "key": "shift+ctrl+j",
+                "command": "extraCommands.togglePanelVisibility",
+                "when": "!panelVisible"
             },
             {
                 "key": "ctrl+\\",
@@ -424,8 +435,8 @@
                 "command": "npmTheFastest.removePackages"
             },
             {
-                "key": "shift+ctrl+j",
-                "mac": "shift+cmd+j",
+                "key": "ctrl+alt+j",
+                "mac": "cmd+alt+j",
                 "command": "npmTheFastest.addPackages"
             },
             {
@@ -612,7 +623,9 @@
                 "mac": "cmd+7",
                 "command": "zardoyExperiments.insertAutoCompletions",
                 "args": {
-                    "kind": "prop"
+                    "kind": "prop",
+                    "snippetType": "each",
+                    "includeOptional": false
                 },
                 "when": "editorTextFocus"
             },
@@ -621,18 +634,16 @@
                 "mac": "shift+cmd+7",
                 "command": "zardoyExperiments.insertAutoCompletions",
                 "args": {
-                    "kind": "method"
+                    "kind": "prop",
+                    "snippetType": "each",
+                    "includeOptional": true
                 },
                 "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+8",
                 "mac": "cmd+8",
-                "command": "zardoyExperiments.insertAutoCompletions",
-                "args": {
-                    "snippetType": "each",
-                    "kind": "prop"
-                },
+                "command": "zardoyExperiments.insertCompletions",
                 "when": "editorTextFocus"
             },
             {
@@ -640,8 +651,9 @@
                 "mac": "shift+cmd+8",
                 "command": "zardoyExperiments.insertAutoCompletions",
                 "args": {
-                    "snippetType": "each",
-                    "kind": "method"
+                    "kind": "prop",
+                    "destruct": true,
+                    "includeOptional": true
                 },
                 "when": "editorTextFocus"
             },
@@ -675,6 +687,17 @@
                 "mac": "cmd+k shift+cmd+c",
                 "command": "workbench.action.terminal.openNativeConsole",
                 "when": "!terminalFocus"
+            },
+            {
+                "key": "ctrl+r",
+                "cmd": "cmd+r",
+                "command": "zardoyExperiments.reactAwareRename",
+                "when": "editorTextFocus && !isWeb"
+            },
+            {
+                "key": "cmd+; v",
+                "cmd": "ctrl+; v",
+                "command": "commitMsg.autofill"
             }
         ]
     },
