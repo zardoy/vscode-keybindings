@@ -279,10 +279,16 @@
                 "command": "workbench.action.focusThirdEditorGroup"
             },
             {
-                "key": "ctrl+1",
                 "mac": "cmd+1",
+                "key": "ctrl+1",
                 "command": "surround.with",
                 "when": "editorHasSelection"
+            },
+            {
+                "mac": "cmd+shift+1",
+                "key": "ctrl+shift+1",
+                "command": "zardoyExperiments.fixedSurroundIf",
+                "when": "editorTextFocus"
             },
             {
                 "key": "shift+ctrl+i",
@@ -447,7 +453,7 @@
             {
                 "mac": "cmd+; g",
                 "key": "ctrl+; g",
-                "command": "githubManager.openAtGithub"
+                "command": "gitlens.openRepoOnRemote"
             },
             {
                 "mac": "cmd+; s",
@@ -594,12 +600,6 @@
             {
                 "key": "shift+alt+o",
                 "command": "zardoyExperiments.removeUnusedImports",
-                "when": "editorTextFocus"
-            },
-            {
-                "mac": "cmd+2",
-                "key": "ctrl+2",
-                "command": "zardoyExperiments.fixedSurroundIf",
                 "when": "editorTextFocus"
             },
             {
