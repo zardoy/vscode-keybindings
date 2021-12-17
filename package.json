@@ -651,7 +651,6 @@
                 "mac": "shift+cmd+8",
                 "command": "zardoyExperiments.insertAutoCompletions",
                 "args": {
-                    "kind": "prop",
                     "destruct": true,
                     "includeOptional": true
                 },
