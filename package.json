@@ -319,7 +319,7 @@
             {
                 "key": "ctrl+k h",
                 "mac": "cmd+k h",
-                "command": "editor.emmet.action.wrapWithAbbreviation"
+                "command": "zardoyExperiments.insertTag"
             },
             {
                 "key": "alt+down",
