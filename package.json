@@ -731,6 +731,10 @@
                 "mac": "shift+cmd+\\",
                 "command": "zardoyExperiments.goToMatchingTagOrPair",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+'",
+                "command": "findJump.activate"
             }
         ]
     },
