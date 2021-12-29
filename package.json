@@ -208,7 +208,7 @@
                 "mac": "shift+cmd+enter",
                 "key": "shift+ctrl+enter",
                 "command": "workbench.action.toggleMaximizedPanel",
-                "when": "terminalFocus || terminalTabsFocus"
+                "when": "panelFocus"
             },
             {
                 "mac": "cmd+k n",
