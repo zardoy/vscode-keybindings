@@ -603,8 +603,8 @@
                 "when": "editorTextFocus"
             },
             {
-                "mac": "cmd+shift+'",
-                "key": "ctrl+shift+'",
+                "mac": "shift+cmd+;",
+                "key": "shift+ctrl+;",
                 "when": "editorTextFocus",
                 "command": "zardoyExperiments.nextLetterSwapCase"
             },
