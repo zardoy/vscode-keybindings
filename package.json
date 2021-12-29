@@ -319,7 +319,7 @@
             {
                 "key": "ctrl+k h",
                 "mac": "cmd+k h",
-                "command": "editor.emmet.action.wrapWithAbbreviation"
+                "command": "zardoyExperiments.insertTag"
             },
             {
                 "key": "alt+down",
@@ -583,7 +583,12 @@
             {
                 "key": "tab",
                 "command": "zardoyExperiments.tab",
-                "when": "editorTextFocus && !inSnippetMode && editorLangId == typescript || editorLangId == typescriptreact || editorLangId == javascript"
+                "when": "editorTextFocus && !inSnippetMode"
+            },
+            {
+                "mac": "ctrl+backspace",
+                "command": "deleteRight",
+                "when": "editorTextFocus"
             },
             {
                 "mac": "ctrl+backspace",
@@ -689,14 +694,43 @@
             },
             {
                 "key": "ctrl+r",
-                "cmd": "cmd+r",
+                "mac": "cmd+r",
                 "command": "zardoyExperiments.reactAwareRename",
                 "when": "editorTextFocus && !isWeb"
             },
             {
-                "key": "cmd+; v",
-                "cmd": "ctrl+; v",
+                "key": "ctrl+; v",
+                "mac": "cmd+; v",
                 "command": "commitMsg.autofill"
+            },
+            {
+                "key": "ctrl+k ctrl+alt+l",
+                "mac": "cmd+k cmd+alt+l",
+                "command": "extension.changeCase.camel"
+            },
+            {
+                "key": "ctrl+k ctrl+shift+l",
+                "mac": "cmd+k cmd+shift+l",
+                "command": "commands.run",
+                "args": [
+                    "extension.changeCase.no",
+                    "extension.changeCase.title"
+                ]
+            },
+            {
+                "key": "shift+enter",
+                "command": "commands.run",
+                "args": [
+                    "extension.commaEnter",
+                    "editor.action.triggerSuggest"
+                ],
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+shift+\\",
+                "mac": "shift+cmd+\\",
+                "command": "zardoyExperiments.goToMatchingTagOrPair",
+                "when": "editorTextFocus"
             }
         ]
     },
