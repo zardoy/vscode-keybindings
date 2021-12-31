@@ -734,7 +734,13 @@
             },
             {
                 "key": "ctrl+'",
+                "mac": "cmd+'",
                 "command": "findJump.activate"
+            },
+            {
+                "key": "ctrl+; i",
+                "mac": "cmd+; i",
+                "command": "npmTheFastest.runInstall"
             }
         ]
     },
