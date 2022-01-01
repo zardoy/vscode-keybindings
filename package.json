@@ -205,6 +205,11 @@
                 "when": "editorTextFocus"
             },
             {
+                "key": "shift+ctrl+enter",
+                "command": "zardoyExperiments.fixedTerminalMaximize",
+                "when": "terminalFocus && !panelMaximized"
+            },
+            {
                 "mac": "shift+cmd+enter",
                 "key": "shift+ctrl+enter",
                 "command": "workbench.action.toggleMaximizedPanel",
@@ -714,7 +719,10 @@
                 "command": "commands.run",
                 "args": [
                     "extension.changeCase.no",
-                    "extension.changeCase.title"
+                    {
+                        "delay": 50,
+                        "command": "extension.changeCase.title"
+                    }
                 ]
             },
             {
