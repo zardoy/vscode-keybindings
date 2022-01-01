@@ -749,6 +749,10 @@
                 "key": "ctrl+; i",
                 "mac": "cmd+; i",
                 "command": "npmTheFastest.runInstall"
+            },
+            {
+                "key": "ctrl+alt+n",
+                "command": "vscodeTerminalCodeRunner.runFile"
             }
         ]
     },
