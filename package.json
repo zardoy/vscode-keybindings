@@ -218,7 +218,11 @@
             {
                 "mac": "cmd+k n",
                 "key": "ctrl+k n",
-                "command": "workbench.files.action.collapseExplorerFolders"
+                "command": "commands.run",
+                "args": [
+                    "workbench.files.action.collapseExplorerFolders",
+                    "workbench.files.action.showActiveFileInExplorer"
+                ]
             },
             {
                 "mac": "cmd+k e",
@@ -753,6 +757,11 @@
             {
                 "key": "ctrl+alt+n",
                 "command": "vscodeTerminalCodeRunner.runFile"
+            },
+            {
+                "key": "ctrl+; ctrl+r",
+                "mac": "cmd+; cmd+r",
+                "command": "extraCommands.renameSymbolAndFile"
             }
         ]
     },
