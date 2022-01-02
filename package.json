@@ -756,7 +756,7 @@
             },
             {
                 "key": "ctrl+alt+n",
-                "command": "vscodeTerminalCodeRunner.runFile"
+                "command": "terminalCodeRunner.runFile"
             },
             {
                 "key": "ctrl+; ctrl+r",
