@@ -171,8 +171,23 @@
             },
             {
                 "key": "shift+alt+n",
-                "command": "zardoyExperiments.goToNextErrorInFile",
-                "when": "editorTextFocus"
+                "command": "goToNextProblemInFile",
+                "args": [
+                    false
+                ]
+            },
+            {
+                "key": "ctrl+k shift+alt+n",
+                "mac": "cmd+k shift+alt+n",
+                "command": "goToNextProblemInFile",
+                "args": [
+                    true
+                ]
+            },
+            {
+                "key": "ctrl+; shift+alt+n",
+                "mac": "cmd+; shift+alt+n",
+                "command": "editor.action.marker.nextInFiles"
             },
             {
                 "mac": "shift+cmd+[",
@@ -686,6 +701,11 @@
                 "when": "editorTextFocus"
             },
             {
+                "key": "shift+ctrl+4",
+                "mac": "shift+cmd+4",
+                "command": "zardoyExperiments.copyFileName"
+            },
+            {
                 "key": "shift+ctrl+c",
                 "mac": "shift+cmd+c",
                 "when": "editorTextFocus",
@@ -768,6 +788,16 @@
                 "key": "ctrl+; ctrl+r",
                 "mac": "cmd+; cmd+r",
                 "command": "extraCommands.renameSymbolAndFile"
+            },
+            {
+                "key": "ctrl+; ctrl+w",
+                "mac": "cmd+; cmd+w",
+                "command": "zardoyExperiments.openFileInWebstorm"
+            },
+            {
+                "key": "ctrl+v",
+                "mac": "cmd+v",
+                "command": "zardoyExperiments.fixedPaste"
             }
         ]
     },
