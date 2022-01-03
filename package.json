@@ -798,6 +798,14 @@
                 "key": "ctrl+v",
                 "mac": "cmd+v",
                 "command": "zardoyExperiments.fixedPaste"
+            },
+            {
+                "key": "shift+alt+up",
+                "command": "editor.emmet.action.incrementNumberByOne"
+            },
+            {
+                "key": "shift+alt+down",
+                "command": "editor.emmet.action.decrementNumberByOne"
             }
         ]
     },
