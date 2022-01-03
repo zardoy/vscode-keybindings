@@ -221,8 +221,14 @@
                 "command": "commands.run",
                 "args": [
                     "workbench.files.action.collapseExplorerFolders",
-                    "workbench.files.action.showActiveFileInExplorer"
+                    "workbench.files.action.showActiveFileInExplorer",
+                    "workbench.action.focusActiveEditorGroup"
                 ]
+            },
+            {
+                "mac": "cmd+; n",
+                "key": "ctrl+; n",
+                "command": "workbench.files.action.collapseExplorerFolders"
             },
             {
                 "mac": "cmd+k e",
