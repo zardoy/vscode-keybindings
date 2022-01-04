@@ -171,7 +171,7 @@
             },
             {
                 "key": "shift+alt+n",
-                "command": "goToNextProblemInFile",
+                "command": "zardoyExperiments.goToNextProblemInFile",
                 "args": [
                     false
                 ]
@@ -179,7 +179,7 @@
             {
                 "key": "ctrl+k shift+alt+n",
                 "mac": "cmd+k shift+alt+n",
-                "command": "goToNextProblemInFile",
+                "command": "zardoyExperiments.goToNextProblemInFile",
                 "args": [
                     true
                 ]
