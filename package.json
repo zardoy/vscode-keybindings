@@ -724,8 +724,7 @@
             {
                 "key": "ctrl+k shift+ctrl+c",
                 "mac": "cmd+k shift+cmd+c",
-                "command": "workbench.action.terminal.openNativeConsole",
-                "when": "!terminalFocus"
+                "command": "workbench.action.terminal.openNativeConsole"
             },
             {
                 "key": "ctrl+r",
@@ -797,7 +796,8 @@
             {
                 "key": "ctrl+v",
                 "mac": "cmd+v",
-                "command": "zardoyExperiments.fixedPaste"
+                "command": "zardoyExperiments.fixedPaste",
+                "when": "editorTextFocus"
             },
             {
                 "key": "shift+alt+up",
@@ -806,6 +806,26 @@
             {
                 "key": "shift+alt+down",
                 "command": "editor.emmet.action.decrementNumberByOne"
+            },
+            {
+                "key": "shift+ctrl+c",
+                "mac": "shift+cmd+c",
+                "when": "editorTextFocus && editorHasSelection",
+                "command": "commands.run",
+                "args": [
+                    "expandLineSelection",
+                    "editor.action.clipboardCopyAction"
+                ]
+            },
+            {
+                "key": "shift+ctrl+x",
+                "mac": "shift+cmd+x",
+                "when": "editorTextFocus && editorHasSelection",
+                "command": "commands.run",
+                "args": [
+                    "expandLineSelection",
+                    "editor.action.clipboardCutAction"
+                ]
             }
         ]
     },
