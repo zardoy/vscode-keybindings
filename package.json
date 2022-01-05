@@ -800,6 +800,18 @@
                 "when": "editorTextFocus"
             },
             {
+                "key": "ctrl+k ctrl+v",
+                "mac": "cmd+k cmd+v",
+                "command": "zardoyExperiments.focusLastPasteRange",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+; ctrl+v",
+                "mac": "cmd+; cmd+v",
+                "command": "editor.action.clipboardPasteAction",
+                "when": "editorTextFocus"
+            },
+            {
                 "key": "shift+alt+up",
                 "command": "editor.emmet.action.incrementNumberByOne"
             },
@@ -840,6 +852,9 @@
     "author": "Vitaly Turovsky <vital2580@icloud.com>",
     "license": "MIT",
     "devDependencies": {
-        "@types/vscode": "^1.60.0"
-    }
+        "@types/vscode": "^1.60.0",
+        "typed-jsonfile": "^0.2.0",
+        "modify-json-file": "^1.2.2"
+    },
+    "dependencies": {}
 }
