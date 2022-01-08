@@ -390,7 +390,7 @@
             {
                 "key": "ctrl+k s",
                 "mac": "cmd+k s",
-                "command": "npmTheFastest.runMainNpmScript"
+                "command": "npmRapidReady.runMainNpmScript"
             },
             {
                 "key": "ctrl+g",
@@ -404,7 +404,7 @@
             {
                 "key": "shift+ctrl+r",
                 "mac": "shift+cmd+r",
-                "command": "npmTheFastest.runNpmScript"
+                "command": "npmRapidReady.runNpmScript"
             },
             {
                 "key": "alt+\\",
@@ -429,7 +429,7 @@
             {
                 "key": "ctrl+k p",
                 "mac": "cmd+k p",
-                "command": "npmTheFastest.openClosestPackageJson"
+                "command": "npmRapidReady.openClosestPackageJson"
             },
             {
                 "mac": "cmd+u",
@@ -468,12 +468,12 @@
             {
                 "key": "ctrl+k shift+ctrl+j",
                 "mac": "cmd+k shift+cmd+j",
-                "command": "npmTheFastest.removePackages"
+                "command": "npmRapidReady.removePackages"
             },
             {
                 "key": "ctrl+alt+j",
                 "mac": "cmd+alt+j",
-                "command": "npmTheFastest.addPackages"
+                "command": "npmRapidReady.addPackages"
             },
             {
                 "mac": "cmd+; p",
@@ -777,7 +777,7 @@
             {
                 "key": "ctrl+; i",
                 "mac": "cmd+; i",
-                "command": "npmTheFastest.runInstall"
+                "command": "npmRapidReady.runInstall"
             },
             {
                 "key": "ctrl+alt+n",
