@@ -873,7 +873,7 @@
                 "key": "shift+ctrl+v",
                 "mac": "shift+cmd+v",
                 "command": "abracadabra.extract",
-                "when": "editorTextFocus && editorLangId !== markdown"
+                "when": "editorTextFocus && editorLangId != 'markdown'"
             },
             {
                 "key": "ctrl+k shift+n",
