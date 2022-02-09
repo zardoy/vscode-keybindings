@@ -556,7 +556,11 @@
             {
                 "mac": "cmd+; c",
                 "key": "ctrl+; c",
-                "command": "git.commit"
+                "command": "commands.run",
+                "args": [
+                    "workbench.view.scm",
+                    "git.commit"
+                ]
             },
             {
                 "mac": "cmd+; shift+c",
@@ -702,7 +706,7 @@
             },
             {
                 "key": "shift+ctrl+4",
-                "mac": "shift+cmd+4",
+                "mac": "shift+alt+4",
                 "command": "zardoyExperiments.copyFileName"
             },
             {
