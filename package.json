@@ -838,6 +838,89 @@
                     "expandLineSelection",
                     "editor.action.clipboardCutAction"
                 ]
+            },
+            {
+                "key": "shift+ctrl+'",
+                "mac": "shift+cmd+'",
+                "command": "breadcrumbs.focus",
+                "when": "breadcrumbsPossible"
+            },
+            {
+                "key": "ctrl+shift+alt+.",
+                "mac": "ctrl+shift+cmd+.",
+                "command": "cursorWordPartRightSelect"
+            },
+            {
+                "key": "ctrl+shift+alt+,",
+                "mac": "ctrl+shift+cmd+,",
+                "command": "cursorWordPartLeftSelect"
+            },
+            {
+                "key": "ctrl+shift+alt+backspace",
+                "mac": "ctrl+shift+cmd+backspace",
+                "command": "deleteWordPartLeft"
+            },
+            {
+                "key": "ctrl+shift+alt+delete",
+                "mac": "ctrl+shift+alt+backspace",
+                "command": "deleteWordPartRight"
+            },
+            {
+                "key": "shift+ctrl+v",
+                "mac": "shift+cmd+v",
+                "command": "abracadabra.extract",
+                "when": "editorTextFocus && editorLangId !== markdown"
+            },
+            {
+                "key": "ctrl+k shift+n",
+                "mac": "mac+k shift+n",
+                "command": "workbench.action.files.newUntitledFile"
+            },
+            {
+                "key": "ctrl+alt+`",
+                "mac": "shift+alt+`",
+                "command": "npmRapidReady.runBinCommand"
+            },
+            {
+                "win": "ctrl+alt+t",
+                "linux": "ctrl+alt+t",
+                "command": "workbench.action.closeOtherEditors"
+            },
+            {
+                "key": "alt+v",
+                "mac": "ctrl+v",
+                "command": "bracketeer.selectBracketContent"
+            },
+            {
+                "key": "ctrl+alt+backspace",
+                "mac": "cmd+alt+backspace",
+                "command": "bracketeer.removeBrackets"
+            },
+            {
+                "key": "shift+alt+w",
+                "command": "toggleFindWholeWord",
+                "when": "editorFocus"
+            },
+            {
+                "key": "shift+alt+w",
+                "command": "toggleSearchEditorWholeWord",
+                "when": "inSearchEditor"
+            },
+            {
+                "key": "alt+shift+c",
+                "command": "toggleFindCaseSensitive",
+                "when": "editorFocus"
+            },
+            {
+                "key": "alt+shift+c",
+                "command": "toggleSearchEditorCaseSensitive",
+                "when": "inSearchEditor"
+            },
+            {
+                "key": "alt+r",
+                "mac": "cmd+alt+r",
+                "command": "toggleSearchEditorRegex",
+                "when": "inSearchEditor"
             }
         ]
     },
