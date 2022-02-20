@@ -483,6 +483,12 @@
             {
                 "mac": "cmd+; g",
                 "key": "ctrl+; g",
+                "command": "remoteHub.goToRepository",
+                "when": "isWeb"
+            },
+            {
+                "mac": "cmd+; g",
+                "key": "ctrl+; g",
                 "command": "gitlens.openRepoOnRemote"
             },
             {
