@@ -60,12 +60,6 @@
                 "command": "workbench.action.toggleSidebarVisibility"
             },
             {
-                "mac": "cmd+r",
-                "key": "ctrl+r",
-                "command": "editor.action.rename",
-                "when": "editorTextFocus"
-            },
-            {
                 "mac": "cmd+k l",
                 "key": "ctrl+k l",
                 "command": "extension.changeCase.commands"
@@ -737,10 +731,16 @@
                 "command": "workbench.action.terminal.openNativeConsole"
             },
             {
+                "mac": "cmd+r",
+                "key": "ctrl+r",
+                "command": "editor.action.rename",
+                "when": "editorTextFocus && isWeb"
+            },
+            {
                 "key": "ctrl+r",
                 "mac": "cmd+r",
                 "command": "zardoyExperiments.reactAwareRename",
-                "when": "editorTextFocus && !isWeb"
+                "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+; v",
