@@ -931,6 +931,11 @@
                 "mac": "cmd+alt+r",
                 "command": "toggleSearchEditorRegex",
                 "when": "inSearchEditor"
+            },
+            {
+                "key": "ctrl+; ctrl+g",
+                "mac": "cmd+; cmd+g",
+                "command": "npmRapidReady.openPackageRepository"
             }
         ]
     },
