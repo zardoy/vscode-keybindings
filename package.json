@@ -940,12 +940,12 @@
             {
                 "key": "ctrl+-",
                 "mac": "cmd+-",
-                "command": "command:editor.fold"
+                "command": "editor.fold"
             },
             {
                 "key": "ctrl+=",
                 "mac": "cmd+=",
-                "command": "command:editor.unfold"
+                "command": "editor.unfold"
             }
         ]
     },
