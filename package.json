@@ -956,6 +956,11 @@
                 "key": "shift+ctrl+g w",
                 "mac": "shift+cmd+g w",
                 "command": "git.closeAllDiffEditors"
+            },
+            {
+                "key": "shift+ctrl+g c",
+                "mac": "shift+cmd+g c",
+                "command": "gitlens.copyRemoteFileUrlToClipboard"
             }
         ]
     },
