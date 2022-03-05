@@ -3,7 +3,7 @@
     "private": true,
     "displayName": "Zardoy Keybindings",
     "publisher": "zardoy",
-    "version": "0.0.12",
+    "version": "0.0.0-dev",
     "description": "My full list of opinionated keybindings",
     "repository": "https://github.com/zardoy/vscode-keybindings.git",
     "keywords": [
@@ -946,6 +946,16 @@
                 "key": "ctrl+=",
                 "mac": "cmd+=",
                 "command": "editor.unfold"
+            },
+            {
+                "key": "shift+ctrl+g h",
+                "mac": "shift+cmd+g h",
+                "command": "gitlens.showQuickFileHistory"
+            },
+            {
+                "key": "shift+ctrl+g w",
+                "mac": "shift+cmd+g w",
+                "command": "git.closeAllDiffEditors"
             }
         ]
     },
