@@ -961,6 +961,11 @@
                 "key": "shift+ctrl+g c",
                 "mac": "shift+cmd+g c",
                 "command": "gitlens.copyRemoteFileUrlToClipboard"
+            },
+            {
+                "key": "shift+ctrl+g p",
+                "mac": "shift+cmd+g p",
+                "command": "vscode-github.browserSimplePullRequest"
             }
         ]
     },
