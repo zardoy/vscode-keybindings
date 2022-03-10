@@ -97,6 +97,12 @@
                 "command": "workbench.action.files.saveWithoutFormatting"
             },
             {
+                "mac": "cmd+s",
+                "key": "ctrl+s",
+                "command": "workbench.action.files.saveWithoutFormatting",
+                "when": "config.saveWithoutFormatting"
+            },
+            {
                 "mac": "cmd+k cmd+,",
                 "key": "ctrl+k ctrl+,",
                 "command": "workbench.action.openGlobalKeybindings"
