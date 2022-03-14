@@ -972,6 +972,11 @@
                 "key": "shift+ctrl+g p",
                 "mac": "shift+cmd+g p",
                 "command": "vscode-github.browserSimplePullRequest"
+            },
+            {
+                "key": "ctrl+; shift+alt+c",
+                "mac": "cmd+; shift+alt+c",
+                "command": "zardoyExperiments.copyCurrentWorkspacePath"
             }
         ]
     },
