@@ -977,6 +977,11 @@
                 "key": "ctrl+; shift+alt+c",
                 "mac": "cmd+; shift+alt+c",
                 "command": "zardoyExperiments.copyCurrentWorkspacePath"
+            },
+            {
+                "key": "ctrl+k shift+ctrl+o",
+                "mac": "cmd+k shift+cmd+o",
+                "command": "outline.focus"
             }
         ]
     },
