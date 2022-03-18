@@ -564,6 +564,7 @@
                 "key": "ctrl+; c",
                 "command": "commands.run",
                 "args": [
+                    "zardoyExperiments.ensureGitUser",
                     "workbench.view.scm",
                     "git.commit"
                 ]
