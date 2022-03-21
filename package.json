@@ -983,6 +983,16 @@
                 "key": "ctrl+k shift+ctrl+o",
                 "mac": "cmd+k shift+cmd+o",
                 "command": "outline.focus"
+            },
+            {
+                "key": "ctrl+; b",
+                "mac": "cmd+; b",
+                "command": "gistpad.openGist"
+            },
+            {
+                "key": "shift+ctrl+g n",
+                "mac": "shift+cmd+g n",
+                "command": "gitlens.copyCurrentBranch"
             }
         ]
     },
