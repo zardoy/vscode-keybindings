@@ -998,6 +998,11 @@
                 "key": "shift+ctrl+g y",
                 "mac": "shift+cmd+g y",
                 "command": "git.showOutput"
+            },
+            {
+                "key": "ctrl+k shift+s",
+                "mac": "cmd+k shift+s",
+                "command": "search.action.openNewEditor"
             }
         ]
     },
