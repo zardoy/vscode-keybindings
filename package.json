@@ -993,6 +993,11 @@
                 "key": "shift+ctrl+g n",
                 "mac": "shift+cmd+g n",
                 "command": "gitlens.copyCurrentBranch"
+            },
+            {
+                "key": "shift+ctrl+g y",
+                "mac": "shift+cmd+g y",
+                "command": "git.showOutput"
             }
         ]
     },
