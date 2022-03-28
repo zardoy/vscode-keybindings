@@ -847,8 +847,8 @@
                 ]
             },
             {
-                "key": "shift+ctrl+x",
-                "mac": "shift+cmd+x",
+                "key": "ctrl+alt+x",
+                "mac": "shift+alt+x",
                 "when": "editorTextFocus && editorHasSelection",
                 "command": "commands.run",
                 "args": [
