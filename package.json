@@ -1008,6 +1008,11 @@
                 "key": "ctrl+k ctrl+alt+backspace",
                 "mac": "cmd+k cmd+alt+backspace",
                 "command": "bracketeer.removeQuotes"
+            },
+            {
+                "key": "alt+x",
+                "mac": "cltr+x",
+                "command": "bracketeer.selectQuotesContent"
             }
         ]
     },
