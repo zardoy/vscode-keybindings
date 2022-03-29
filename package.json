@@ -1003,6 +1003,11 @@
                 "key": "ctrl+k shift+s",
                 "mac": "cmd+k shift+s",
                 "command": "search.action.openNewEditor"
+            },
+            {
+                "key": "ctrl+k ctrl+alt+backspace",
+                "mac": "cmd+k cmd+alt+backspace",
+                "command": "bracketeer.removeQuotes"
             }
         ]
     },
