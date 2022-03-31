@@ -1013,16 +1013,6 @@
                 "key": "alt+x",
                 "mac": "cltr+x",
                 "command": "bracketeer.selectQuotesContent"
-            },
-            {
-                "key": "alt+up",
-                "command": "workbench.action.terminal.scrollToPreviousCommand",
-                "when": "terminalFocus"
-            },
-            {
-                "key": "alt+down",
-                "command": "workbench.action.terminal.scrollToNextCommand",
-                "when": "terminalFocus"
             }
         ]
     },
