@@ -980,6 +980,11 @@
                 "command": "gitlens.copyRemoteFileUrlToClipboard"
             },
             {
+                "key": "shift+ctrl+g o",
+                "mac": "shift+cmd+g o",
+                "command": "gitlens.openFileOnRemote"
+            },
+            {
                 "key": "shift+ctrl+g p",
                 "mac": "shift+cmd+g p",
                 "command": "vscode-github.browserSimplePullRequest"
