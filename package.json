@@ -924,6 +924,16 @@
                 "when": "inSearchEditor"
             },
             {
+                "key": "alt+shift+w",
+                "command": "toggleSearchWholeWord",
+                "when": "searchViewletFocus"
+            },
+            {
+                "key": "alt+shift+c",
+                "command": "toggleSearchCaseSensitive",
+                "when": "searchViewletFocus"
+            },
+            {
                 "key": "alt+shift+c",
                 "command": "toggleFindCaseSensitive",
                 "when": "editorFocus"
