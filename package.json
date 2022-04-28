@@ -1028,6 +1028,14 @@
                 "key": "alt+x",
                 "mac": "cltr+x",
                 "command": "bracketeer.selectQuotesContent"
+            },
+            {
+                "key": "alt+.",
+                "command": "editor.action.insertSnippet",
+                "when": "editorFocus",
+                "args": {
+                    "snippet": "..."
+                }
             }
         ]
     },
