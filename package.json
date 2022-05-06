@@ -1044,6 +1044,12 @@
                 "args": {
                     "snippet": "/** @type {$1} */"
                 }
+            },
+            {
+                "command": "githubManager.forceOpenInTheSameWindow",
+                "when": "github-manager.inQuickPick",
+                "key": "ctrl+o",
+                "mac": "cmd+o"
             }
         ]
     },
