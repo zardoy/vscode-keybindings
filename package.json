@@ -1039,8 +1039,8 @@
             },
             {
                 "key": "alt+t",
-                "command": "editorLangId =~ /javascript|javascriptreact|vue/ && editor.action.insertSnippet",
-                "when": "editorFocus",
+                "command": "editor.action.insertSnippet",
+                "when": "editorLangId =~ /javascript|javascriptreact|vue/ && editor.action.insertSnippet",
                 "args": {
                     "snippet": "/** @type {$1} */"
                 }
