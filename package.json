@@ -817,6 +817,12 @@
                 "when": "editorTextFocus"
             },
             {
+                "key": "ctrl+v",
+                "mac": "cmd+v",
+                "command": "editor.action.clipboardPasteAction",
+                "when": "editorTextFocus"
+            },
+            {
                 "key": "ctrl+k ctrl+v",
                 "mac": "cmd+k cmd+v",
                 "command": "zardoyExperiments.focusLastPasteRange",
