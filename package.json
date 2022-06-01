@@ -896,7 +896,7 @@
             },
             {
                 "key": "ctrl+k shift+n",
-                "mac": "mac+k shift+n",
+                "mac": "cmd+k shift+n",
                 "command": "workbench.action.files.newUntitledFile"
             },
             {
@@ -1046,7 +1046,7 @@
             {
                 "key": "alt+t",
                 "command": "editor.action.insertSnippet",
-                "when": "editorLangId =~ /javascript|javascriptreact|vue/ && editor.action.insertSnippet",
+                "when": "editorLangId =~ /javascript|javascriptreact|vue/",
                 "args": {
                     "snippet": "/** @type {$1} */"
                 }
