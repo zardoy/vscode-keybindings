@@ -281,7 +281,6 @@
                 "when": "workbench.panel.output.active"
             },
             {
-                "mac": "shift+cmd+r",
                 "key": "shift+alt+r",
                 "command": "revealFileInOS",
                 "when": "editorTextFocus || filesExplorerFocus"
