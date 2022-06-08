@@ -1063,6 +1063,19 @@
             {
                 "command": "workbench.action.files.revert",
                 "key": "alt+d"
+            },
+            {
+                "command": "zardoyExperiments.selectLineContents",
+                "args": {
+                    "continue-to-line": true
+                },
+                "mac": "cmd+l",
+                "key": "ctrl+l"
+            },
+            {
+                "command": "zardoyExperiments.cutLineContents",
+                "mac": "cmd+h",
+                "key": "ctrl+h"
             }
         ]
     },
