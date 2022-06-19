@@ -1076,6 +1076,12 @@
                 "command": "zardoyExperiments.cutLineContents",
                 "mac": "cmd+h",
                 "key": "ctrl+h"
+            },
+            {
+                "key": "ctrl+alt+1",
+                "mac": "ctrl+alt+1",
+                "command": "abracadabra.toggleBraces",
+                "when": "editorTextFocus"
             }
         ]
     },
