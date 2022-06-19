@@ -1079,8 +1079,14 @@
             },
             {
                 "key": "ctrl+alt+1",
-                "mac": "ctrl+alt+1",
+                "mac": "shift+alt+1",
                 "command": "abracadabra.toggleBraces",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+alt+2",
+                "mac": "shift+alt+2",
+                "command": "abracadabra.convertToTemplateLiteral",
                 "when": "editorTextFocus"
             }
         ]
