@@ -418,7 +418,8 @@
             {
                 "key": "alt+o",
                 "mac": "cmd+o",
-                "command": "notifications.focusToasts"
+                "command": "notifications.focusToasts",
+                "when": "!inQuickOpen"
             },
             {
                 "key": "ctrl+k ctrl+shift+x",
@@ -1070,7 +1071,8 @@
                     "continue-to-line": true
                 },
                 "mac": "cmd+l",
-                "key": "ctrl+l"
+                "key": "ctrl+l",
+                "when": "editorTextFocus"
             },
             {
                 "command": "zardoyExperiments.cutLineContents",
