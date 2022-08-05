@@ -429,7 +429,7 @@
             {
                 "key": "ctrl+k p",
                 "mac": "cmd+k p",
-                "command": "npmRapidReady.openClosestPackageJson"
+                "command": "npmRapidReady.openWorkspacePackageJson"
             },
             {
                 "mac": "cmd+u",
@@ -614,7 +614,7 @@
             {
                 "mac": "cmd+k cmd+m",
                 "key": "ctrl+k ctrl+m",
-                "command": "extension.search"
+                "command": "npmRapidReady.revealInExplorer"
             },
             {
                 "mac": "cmd+k cmd+n",
