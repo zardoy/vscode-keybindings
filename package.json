@@ -322,6 +322,12 @@
             {
                 "key": "shift+ctrl+i",
                 "mac": "shift+cmd+i",
+                "command": "fixAllJson.fixFile",
+                "when": "editorTextFocus && editorLangId =~ /json|jsonc/"
+            },
+            {
+                "key": "shift+ctrl+i",
+                "mac": "shift+cmd+i",
                 "command": "eslint.executeAutofix",
                 "when": "editorTextFocus"
             },
@@ -1090,6 +1096,11 @@
                 "mac": "shift+alt+2",
                 "command": "abracadabra.convertToTemplateLiteral",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+k shift+t",
+                "mac": "cmd+k shift+t",
+                "command": "workbench.action.toggleLightDarkThemes"
             }
         ]
     },
