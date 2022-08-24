@@ -1101,6 +1101,11 @@
                 "key": "ctrl+k shift+t",
                 "mac": "cmd+k shift+t",
                 "command": "workbench.action.toggleLightDarkThemes"
+            },
+            {
+                "command": "zardoyExperiments.renameVariableParts",
+                "key": "ctrl+e",
+                "mac": "cmd+e"
             }
         ]
     },
