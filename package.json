@@ -1072,6 +1072,12 @@
                 "key": "alt+d"
             },
             {
+                "command": "expandLineSelection",
+                "mac": "cmd+l",
+                "key": "ctrl+l",
+                "when": "editorTextFocus && editorHasSelection"
+            },
+            {
                 "command": "zardoyExperiments.selectLineContents",
                 "args": {
                     "continue-to-line": true
@@ -1106,6 +1112,11 @@
                 "command": "zardoyExperiments.renameVariableParts",
                 "key": "ctrl+e",
                 "mac": "cmd+e"
+            },
+            {
+                "command": "zardoyExperiments.turnCommentIntoJsdoc",
+                "key": "ctrl+; ctrl+/",
+                "mac": "cmd+; cmd+/"
             }
         ]
     },
