@@ -328,7 +328,7 @@
             {
                 "key": "shift+ctrl+i",
                 "mac": "shift+cmd+i",
-                "command": "eslint.executeAutofix",
+                "command": "eslint.executeAutofix && editorLangId != 'json' && editorLangId != 'jsonc'",
                 "when": "editorTextFocus"
             },
             {
@@ -1117,6 +1117,20 @@
                 "command": "zardoyExperiments.turnCommentIntoJsdoc",
                 "key": "ctrl+; ctrl+/",
                 "mac": "cmd+; cmd+/"
+            },
+            {
+                "key": "ctrl+k ctrl+b",
+                "mac": "cmd+k cmd+b",
+                "command": "markdown.extension.editing.toggleBold",
+                "when": "editorTextFocus && editorLangId =~ /javascript|javascriptreact|typescript|typescriptreact|vue/"
+            },
+            {
+                "key": "shift+`",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus && editorHasSelection && editorLangId == 'markdown'",
+                "args": {
+                    "snippet": "~~$TM_SELECTED_TEXT~~"
+                }
             }
         ]
     },
