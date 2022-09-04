@@ -1126,11 +1126,8 @@
             },
             {
                 "key": "shift+`",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus && editorHasSelection && editorLangId == 'markdown'",
-                "args": {
-                    "snippet": "~~$TM_SELECTED_TEXT~~"
-                }
+                "command": "markdown.extension.editing.toggleStrikethrough",
+                "when": "editorTextFocus && editorHasSelection && editorLangId == 'markdown'"
             }
         ]
     },
