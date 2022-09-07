@@ -328,8 +328,8 @@
             {
                 "key": "shift+ctrl+i",
                 "mac": "shift+cmd+i",
-                "command": "eslint.executeAutofix && editorLangId != 'json' && editorLangId != 'jsonc'",
-                "when": "editorTextFocus"
+                "command": "eslint.executeAutofix",
+                "when": "editorTextFocus && editorLangId != 'json' && editorLangId != 'jsonc'"
             },
             {
                 "key": "ctrl+; shift+ctrl+r",
