@@ -1064,8 +1064,12 @@
                 "mac": "cmd+o"
             },
             {
-                "command": "workbench.files.action.showActiveFileInExplorer",
+                "command": "workbench.action.openView",
                 "key": "shift+alt+e"
+            },
+            {
+                "command": "workbench.files.action.showActiveFileInExplorer",
+                "key": "shift+alt+w"
             },
             {
                 "command": "workbench.action.files.revert",
