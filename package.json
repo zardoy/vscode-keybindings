@@ -329,7 +329,7 @@
                 "key": "shift+ctrl+i",
                 "mac": "shift+cmd+i",
                 "command": "eslint.executeAutofix",
-                "when": "editorTextFocus && editorLangId != 'json' && editorLangId != 'jsonc'"
+                "when": "editorTextFocus && editorLangId =~ editorLangId =~ /javascript|javascriptreact|typescript|typescriptreact|vue/"
             },
             {
                 "key": "ctrl+; shift+ctrl+r",
@@ -1012,8 +1012,8 @@
                 "command": "outline.focus"
             },
             {
-                "key": "ctrl+; b",
-                "mac": "cmd+; b",
+                "key": "ctrl+; ctrl+b",
+                "mac": "cmd+; cmd+b",
                 "command": "gistpad.openGist"
             },
             {
@@ -1137,6 +1137,16 @@
                 "key": "ctrl+; ctrl+u",
                 "mac": "cmd+; cmd+u",
                 "command": "git.stage"
+            },
+            {
+                "key": "ctrl+; ctrl+j",
+                "mac": "cmd+; cmd+j",
+                "command": "zardoyExperiments.gitStageFiles"
+            },
+            {
+                "key": "ctrl+; ctrl+l",
+                "mac": "cmd+; cmd+l",
+                "command": "zardoyExperiments.gitUnstageFiles"
             }
         ]
     },
