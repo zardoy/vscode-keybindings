@@ -329,7 +329,7 @@
                 "key": "shift+ctrl+i",
                 "mac": "shift+cmd+i",
                 "command": "eslint.executeAutofix",
-                "when": "editorTextFocus && editorLangId =~ editorLangId =~ /javascript|javascriptreact|typescript|typescriptreact|vue/"
+                "when": "editorTextFocus && editorLangId =~ /javascript|javascriptreact|typescript|typescriptreact|vue/"
             },
             {
                 "key": "ctrl+; shift+ctrl+r",
