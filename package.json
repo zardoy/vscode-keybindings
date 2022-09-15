@@ -1144,9 +1144,14 @@
                 "command": "zardoyExperiments.gitStageFiles"
             },
             {
-                "key": "ctrl+; ctrl+l",
-                "mac": "cmd+; cmd+l",
+                "key": "ctrl+; shift+j",
+                "mac": "cmd+; shift+j",
                 "command": "zardoyExperiments.gitUnstageFiles"
+            },
+            {
+                "key": "ctrl+; j",
+                "mac": "cmd+; j",
+                "command": "zardoyExperiments.gitRevertFiles"
             },
             {
                 "key": "ctrl+; ctrl+,",
