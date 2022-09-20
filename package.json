@@ -711,10 +711,7 @@
             {
                 "key": "ctrl+4",
                 "mac": "cmd+4",
-                "command": "editor.action.insertSnippet",
-                "args": {
-                    "snippet": "$TM_FILENAME_BASE"
-                },
+                "command": "zardoyExperiments.insertFileName",
                 "when": "editorTextFocus"
             },
             {
