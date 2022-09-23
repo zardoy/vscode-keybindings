@@ -1154,6 +1154,11 @@
                 "key": "ctrl+; ctrl+,",
                 "mac": "cmd+; cmd+,",
                 "command": "workbench.action.openWorkspaceSettingsFile"
+            },
+            {
+                "key": "ctrl+t",
+                "mac": "cmd+t",
+                "command": "extraCommands.showFilteredSymbols"
             }
         ]
     },
