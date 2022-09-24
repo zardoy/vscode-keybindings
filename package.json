@@ -1085,7 +1085,7 @@
                 },
                 "mac": "cmd+l",
                 "key": "ctrl+l",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && !editorHasSelection"
             },
             {
                 "command": "zardoyExperiments.cutLineContents",
