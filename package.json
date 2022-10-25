@@ -894,8 +894,29 @@
             {
                 "key": "shift+ctrl+v",
                 "mac": "shift+cmd+v",
-                "command": "abracadabra.extract",
+                "command": "editor.action.codeAction",
+                "args": {
+                    "kind": "refactor.extract",
+                    "apply": "first"
+                },
                 "when": "editorTextFocus && editorLangId != 'markdown'"
+            },
+            {
+                "key": "ctrl+l",
+                "mac": "cmd+l",
+                "command": "workbench.debug.panel.action.clearReplAction",
+                "when": "focusedView == 'workbench.panel.repl.view'"
+            },
+            {
+                "key": "ctrl+k ctrl+h",
+                "mac": "cmd+k cmd+h",
+                "command": "commands.run",
+                "when": "editorTextFocus",
+                "args": [
+                    "expandLineSelection",
+                    "editor.action.clipboardPasteAction",
+                    "editor.action.reindentselectedlines"
+                ]
             },
             {
                 "key": "ctrl+k shift+n",
@@ -1095,14 +1116,28 @@
             {
                 "key": "ctrl+alt+1",
                 "mac": "shift+alt+1",
-                "command": "abracadabra.toggleBraces",
+                "command": "editor.action.codeAction",
+                "args": {
+                    "kind": "refactor.rewrite.toggle.braces",
+                    "apply": "ifSingle"
+                },
                 "when": "editorTextFocus"
             },
             {
-                "key": "ctrl+alt+2",
-                "mac": "shift+alt+2",
-                "command": "abracadabra.convertToTemplateLiteral",
+                "key": "ctrl+; ctrl+e",
+                "cmd": "cmd+; cmd+e",
+                "command": "editor.debug.action.toggleBreakpoint",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+; e",
+                "mac": "cmd+; e",
+                "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
+            },
+            {
+                "key": "ctrl+; shift+e",
+                "mac": "cmd+; shift+e",
+                "command": "workbench.debug.viewlet.action.disableAllBreakpoints"
             },
             {
                 "key": "ctrl+k shift+t",
