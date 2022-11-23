@@ -910,13 +910,8 @@
             {
                 "key": "ctrl+k ctrl+h",
                 "mac": "cmd+k cmd+h",
-                "command": "commands.run",
-                "when": "editorTextFocus",
-                "args": [
-                    "expandLineSelection",
-                    "editor.action.clipboardPasteAction",
-                    "editor.action.reindentselectedlines"
-                ]
+                "command": "extraCommands.pasteReplaceLineContents",
+                "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+k shift+n",
@@ -1194,6 +1189,12 @@
                 "key": "ctrl+t",
                 "mac": "cmd+t",
                 "command": "extraCommands.showFilteredSymbols"
+            },
+            {
+                "key": "ctrl+; ctrl+y",
+                "cmd": "cmd+; cmd+y",
+                "command": "editor.action.goToImplementation",
+                "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
             }
         ]
     },
