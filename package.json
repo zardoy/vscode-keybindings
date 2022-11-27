@@ -1195,6 +1195,16 @@
                 "cmd": "cmd+; cmd+y",
                 "command": "editor.action.goToImplementation",
                 "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+            },
+            {
+                "key": "shift+tab",
+                "command": "tsEssentialPlugins.goToStartOfValue",
+                "when": "editorTextFocus && editorLangId =~ /javascript|javascriptreact|typescript|typescriptreact|vue/"
+            },
+            {
+                "key": "cmd+k shift+tab",
+                "command": "tsEssentialPlugins.selectSpecialValue",
+                "when": "editorTextFocus && editorLangId =~ /javascript|javascriptreact|typescript|typescriptreact|vue/"
             }
         ]
     },
