@@ -630,7 +630,7 @@
             {
                 "key": "tab",
                 "command": "zardoyExperiments.tab",
-                "when": "editorTextFocus && !inSnippetMode"
+                "when": "editorTextFocus && !inSnippetMode && !inLoopSnippet"
             },
             {
                 "mac": "ctrl+backspace",
