@@ -1199,7 +1199,7 @@
             {
                 "key": "shift+tab",
                 "command": "tsEssentialPlugins.goToStartOfValue",
-                "when": "editorTextFocus && editorLangId =~ /javascript|javascriptreact|typescript|typescriptreact|vue/"
+                "when": "!inSnippetMode && editorTextFocus && editorLangId =~ /javascript|javascriptreact|typescript|typescriptreact|vue/"
             },
             {
                 "key": "cmd+k shift+tab",
