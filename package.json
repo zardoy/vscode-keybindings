@@ -1205,6 +1205,16 @@
                 "key": "cmd+k shift+tab",
                 "command": "tsEssentialPlugins.selectSpecialValue",
                 "when": "editorTextFocus && editorLangId =~ /javascript|javascriptreact|typescript|typescriptreact|vue/"
+            },
+            {
+                "key": "alt+shift+d",
+                "command": "moveStatement.moveStatementDown",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+shift+u",
+                "command": "moveStatement.moveStatementUp",
+                "when": "editorTextFocus"
             }
         ]
     },
