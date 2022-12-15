@@ -1120,7 +1120,7 @@
             },
             {
                 "key": "ctrl+; ctrl+e",
-                "cmd": "cmd+; cmd+e",
+                "mac": "cmd+; cmd+e",
                 "command": "editor.debug.action.toggleBreakpoint",
                 "when": "editorTextFocus"
             },
@@ -1192,7 +1192,7 @@
             },
             {
                 "key": "ctrl+; ctrl+y",
-                "cmd": "cmd+; cmd+y",
+                "mac": "cmd+; cmd+y",
                 "command": "editor.action.goToImplementation",
                 "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
             },
