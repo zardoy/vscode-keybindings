@@ -533,11 +533,6 @@
                 "command": "editor.action.addSelectionToPreviousFindMatch"
             },
             {
-                "mac": "cmd+k shift+d",
-                "key": "ctrl+k shift+d",
-                "command": "editor.action.addSelectionToPreviousFindMatch"
-            },
-            {
                 "mac": "cmd+; r",
                 "key": "ctrl+; r",
                 "command": "git.openChange"
