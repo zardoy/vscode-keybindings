@@ -52,7 +52,7 @@
             {
                 "mac": "alt+cmd+s",
                 "key": "alt+ctrl+s",
-                "command": "workbench.action.files.saveAll"
+                "command": "workbench.action.files.saveFiles"
             },
             {
                 "mac": "cmd+k cmd+b",
@@ -1210,6 +1210,11 @@
                 "key": "alt+shift+u",
                 "command": "moveStatement.moveStatementUp",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+k shift+y",
+                "cmd": "cmd+k shift+y",
+                "command": "zardoyExperiments.goToHighlightedLocations"
             }
         ]
     },
